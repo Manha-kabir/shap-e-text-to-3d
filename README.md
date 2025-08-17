@@ -25,8 +25,9 @@ Outputs include an **OBJ** mesh and a small **GIF** preview suitable for quick g
 ## Sample outputs
 - Prompt: `a low-poly red panda holding a game controller`
 - Files:
-  - `outputs/asset_0.obj`
-  - `preview_0.gif`
+  - [OBJ file](https://raw.githubusercontent.com/Manha-kabir/shap-e-text-to-3d/blob/main/outputs/asset_0.obj)
+  - ![Preview GIF](https://raw.githubusercontent.com/Manha-kabir/shap-e-text-to-3d/blob/main/preview_0.gif)
+  - [PLY file](https://raw.githubusercontent.com/Manha-kabir/shap-e-text-to-3d/blob/main/outputs/asset_0.ply)
 
 ![preview](./preview_0.gif)
 
