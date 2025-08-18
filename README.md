@@ -39,4 +39,18 @@ Outputs include an **OBJ** mesh and a small **GIF** preview suitable for quick g
 - Better prompt shaping and mesh post-processing (smoothing/decimation).
 - Batch generation + simple quality filters.
 
+## Optional API (stub)
+
+A tiny FastAPI stub is included to show how an API would look if this project were hosted.
+
+- `/status` → returns uptime/version
+- `/generate3d?prompt=...` → returns a stub response with pointer to `outputs/asset_0.obj`
+
+⚠️ Note: This API is **just a demo** (no real generation).  
+To run locally:
+1. Install requirements: `pip install fastapi uvicorn pydantic`
+2. Run: `python api_demo.py`
+3. Visit `http://127.0.0.1:8000/docs` for interactive API docs.
+
+
 ---
